@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+{% if members_list %}
+<h2> This is a list of all our members </h2>
+    <ul>
+    {% for member in members_list %}
+        <li class='member_list'><a href="/roles/people/{{ member.id }}/">{{ member.user.get_username }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No one is here.</p>
+{% endif %}
+{% endblock %}
