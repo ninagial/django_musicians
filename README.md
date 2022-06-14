@@ -9,9 +9,5 @@ So, Jim is the leader of a death metal band. They are called Psychonecrosis and 
 Their main influences are Obituary and Carcass.
 
 Ronald is a drummer whose main influence is Death. Although not listed in Psychonecrosis's influences, the software should match them on the musical tastes distance criterion.
-(And for now this is the only criterion.)
-
-OK, let's assume that geographical distance and age are not prohibitive for the time being.
-The app's novelty lies exactly in a sophisticated influence matching for non-mainstream musicians.
 
 So when Jim logs in and goes to the 'Check out these musicians" section, he must be able to see only those musicians that are interested in this genre, play the instruments he needs, and live nearby.
